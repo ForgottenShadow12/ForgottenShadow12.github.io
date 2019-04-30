@@ -5,12 +5,31 @@
     <style>
       @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
     </style>
+    <script>
+      var part1;
+      var part2;
+      var answer;
+      function makeMeARandomProblem() {
+       part1 = Math.floor(Math.random() * 100) + 1;
+       part2 = Math.floor(Math.random() * 100) + 1;
+       answer = part1 * part2;
+      }
+      function check() {
+       if (document.getElementById("math").value = answer) {
+         alert("You did it!");
+         
+       } else 
+       {
+         alert("You are a failure");
+       }
+      }
+    </script>
   </head>
   
   <body style="background-color: black; color: white; font-family: 'Dancing Script', cursive;">
     <h1>Hi. It's ForgottenShadow12</h1>
     <p>I am a new programmer</p>
-  
+    <input type="number" name="math" id="math">
   </body>
 
 </html>
