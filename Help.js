@@ -1,3 +1,4 @@
+
 var max;
 var min;
 
